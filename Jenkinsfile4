@@ -1,0 +1,20 @@
+pipeline {
+  agent any
+  stages {
+    stege ('ist Job'){
+        steps {
+            echo "First Job"
+        }
+    }
+    stege ('2nd Job'){
+        steps {
+            echo "Second Job"
+        }
+    }
+    stege ('3rd Job'){
+        steps {
+            echo "Third  Job"
+        }
+    }
+  }
+}
